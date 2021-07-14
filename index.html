@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tsundokuu &mdash; Support</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="/style.css">
+
+    <script src="js/bootstrap.js"></script>
+    <script defer src="/script.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">TSUNDOKU</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" style="margin-right: 1rem" aria-current="page" target="_blank" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" style="margin-right: 1rem" aria-current="page" href="/discord">Join</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/notify">Notify</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="content-banner">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-12">
+              <div class="banner-con text-center">
+                <p class="first-title"><i class="fad fa-hat-wizard"></i> TSUNDOKUU</p>
+                  <h2 class="banner-des">
+                    We are Anime, gaming, fun Community server, we always looking for new member join us now and make friends!
+                  </h2>
+              </div>
+              <div class="banner-con2 text-left">
+                <p class="first-title2"><i class="fad fa-hat-wizard"></i> TSUNDOKUU</p>
+                  <h2 class="banner-des2">
+                    We are Anime, gaming, fun Community server, we always looking for new member join us now and make friends!
+                  </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <svg id="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="131313" fill-opacity="1" d="M0,160L1440,96L1440,320L0,320Z"></path></svg>
+    </section>
+    <section id="contact">
+        <svg id="waves-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="f1f1f1" fill-opacity="1" d="M0,320L34.3,293.3C68.6,267,137,213,206,176C274.3,139,343,117,411,122.7C480,128,549,160,617,160C685.7,160,754,128,823,149.3C891.4,171,960,245,1029,272C1097.1,299,1166,277,1234,229.3C1302.9,181,1371,107,1406,69.3L1440,32L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+        <div class="jumbotron text-dark">
+            <h1 class="display-4 aer container text-center mb-5">Contact</h1>
+            
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert container" role="alert">
+              <strong>Hey!</strong> we just received your message.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+
+            <form class="container" name="contact-form">
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email<code>*</code></label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" required>
+                </div>
+                <div class="mb-3">
+                  <label for="discord" class="form-label">Discord Tag <span class="email-eg">( eg. SyloryX#6666 )</span><code>*</code></label>
+                  <input type="discord" class="form-control" id="exampleInputPassword1" name="discord" required>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message<code>*</code></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline-danger btn-kirim">Submit</button>
+
+                <button class="btn btn-danger btn-loading d-none" type="button" disabled>
+                  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                  Sending
+                </button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
